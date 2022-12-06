@@ -15,7 +15,7 @@ z = n;
 while (n!=0)
 {
     y = n%10;
-    x = x*10 + remy;
+    x = x*10 + y;
     n = n/10;
 }
 
